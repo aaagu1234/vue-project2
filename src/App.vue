@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <ul>
-      <li><router-link to="/">首页</router-link></li>
+      <li><router-link to="/">首页testgit</router-link></li>
       <li><router-link to="/first">第一个组件</router-link></li>
       <li><router-link to="/second">第二个组件</router-link></li>
-    </ul> 
+    </ul>
     <img src="./assets/logo.png">
     <router-view/>
     <Footer></Footer>
