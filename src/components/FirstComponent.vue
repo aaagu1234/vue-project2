@@ -1,19 +1,21 @@
 <template>
-<div id="FirstComponent">
+  <div id="FirstComponent">
     <h1>Frist component</h1>
     <a class="title-red"> written by {{author}}</a>
 
-</div>
+  </div>
 </template>
-<script type="text/javascript>">
-export default{
+<script type="text/javascript">
+  export default {
     data () {
-     return {
-       author:" first wexin xin  "
-     }
+      return {
+        author: 'afds first wexin xin  '
+      }
     }
-}
+  }
 </script>
 <style>
- .title-red{color:red;}
+  .title-red {
+    color: red;
+  }
 </style>
